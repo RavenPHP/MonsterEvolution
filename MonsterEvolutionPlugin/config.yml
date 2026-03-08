@@ -1,0 +1,15 @@
+plugin:
+  name: MonsterEvolutionPlugin
+  version: 1.0
+  author: DevRaven
+  description: Monsters evolve based on how players fight them.
+
+evolution:
+  swordKillsRequired: 50
+  bowKillsRequired: 50
+  fireKillsRequired: 50
+
+mutations:
+  meleeResistance: true
+  projectileResistance: true
+  fireImmunity: true
